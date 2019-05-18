@@ -2,5 +2,5 @@ language: rust
 rust:
   - stable
 srcipt:
-    - cargo build --manifest-path guessing_game/Cargo.toml
-    - cargo build --manifest-path hello_rust/Cargo.toml
+  - cargo build --verbose
+cache: cargo
