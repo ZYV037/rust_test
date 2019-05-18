@@ -8,5 +8,5 @@ matrix:
   fast_finish: true
   
 srcipt:
-    - cd guessing_game 
-    - cargo build --verbose
+    - cargo build --manifest-path guessing_game/Cargo.toml
+    - cargo build --manifest-path hello_rust/Cargo.toml
