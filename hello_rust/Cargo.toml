@@ -1,0 +1,8 @@
+[package]
+name = "hello_rust"
+version = "0.1.0"
+authors = ["zyv037_y7000 <461177348@qq.com>"]
+edition = "2018"
+
+[dependencies]
+ferris-says = "0.1.1"
